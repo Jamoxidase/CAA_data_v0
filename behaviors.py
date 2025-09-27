@@ -13,6 +13,13 @@ MYOPIC_REWARD = "myopic-reward"
 SURVIVAL_INSTINCT = "survival-instinct"
 SYCOPHANCY = "sycophancy"
 REFUSAL = "refusal"
+ENVY_KINDNESS = "envy-kindness"
+GLUTTONY_TEMPERANCE = "gluttony-temperance"
+GREED_CHARITY = "greed-charity"
+LUST_CHASTITY = "lust-chastity"
+PRIDE_HUMILITY = "pride-humility"
+SLOTH_DILIGENCE = "sloth-diligence"
+WRATH_PATIENCE = "wrath-patience"
 
 HUMAN_NAMES = {
     COORDINATE: "AI Coordination",
@@ -22,6 +29,13 @@ HUMAN_NAMES = {
     SURVIVAL_INSTINCT: "Survival Instinct",
     SYCOPHANCY: "Sycophancy",
     REFUSAL: "Refusal",
+    ENVY_KINDNESS: "Envy vs Kindness",
+    GLUTTONY_TEMPERANCE: "Gluttony vs Temperance",
+    GREED_CHARITY: "Greed vs Charity",
+    LUST_CHASTITY: "Lust vs Chastity",
+    PRIDE_HUMILITY: "Pride vs Humility",
+    SLOTH_DILIGENCE: "Sloth vs Diligence",
+    WRATH_PATIENCE: "Wrath vs Patience",
 }
 
 ALL_BEHAVIORS = [
@@ -32,6 +46,13 @@ ALL_BEHAVIORS = [
     SURVIVAL_INSTINCT,
     SYCOPHANCY,
     REFUSAL,
+    ENVY_KINDNESS,
+    GLUTTONY_TEMPERANCE,
+    GREED_CHARITY,
+    LUST_CHASTITY,
+    PRIDE_HUMILITY,
+    SLOTH_DILIGENCE,
+    WRATH_PATIENCE,
 ]
 
 VECTORS_PATH = os.path.join(BASE_DIR, "vectors")
